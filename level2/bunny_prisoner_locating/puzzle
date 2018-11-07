@@ -1,0 +1,16 @@
+This puzzle is called "Bunny Prisoner Locating."  It's very straightforward.
+
+Assume there exists a giant grid of squares.  The square at the bottom left corner is given coordinates (1, 1), and all other squares are given coordinates (x, y), where x increments for each square further right, and y increments for each square further up.
+
+Each square contains a positive integer.  (1, 1) contains 1, and subsequent numbers are assigned to squares on the next closest diagonal line, like so:
+
+7
+4 8
+2 5 9
+1 3 6 10
+
+This pattern continues both rightwards and upwards.
+
+Define a function answer(x, y) such that given x and y, the function returns a string representation of the integer in the square.
+
+My solution is in solution.py.

@@ -1,0 +1,7 @@
+This puzzle is called "The Cake is Not a Lie." I think it's a reference to Portal.
+
+The problem is to define a function answer(s) such that given a finite alphabetical string s, the function returns a positive integer N.  The string s can be written as the concatenation of n copies of a substring s'.  N is the maximum possible n.  Of course, N exists because n=1 for s'=s, so N is at least 1 but no larger than the length of s.
+
+The example Google gives is that "abcabcabcabc" is 4 copies of "abc," so N=4.
+
+My solution is included in solution.py.
